@@ -23,6 +23,9 @@ const dmMono = DM_Mono({
 export const metadata: Metadata = {
   title: 'Plan treningowy – 15 lat',
   description: 'Kompleksowy plan treningowy do ćwiczeń domowych – redukcja, budowa mięśni, suplementacja.',
+  icons: {
+    icon: [{ url: '/favicon.ico?v=2', type: 'image/x-icon' }],
+  },
 }
 
 export default function RootLayout({
